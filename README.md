@@ -62,7 +62,7 @@ The goal is simple:
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/uncertainty-engine.git
+git clone https://github.com/Hkd225/uncertainty-engine.git
 cd uncertainty-engine
 ```
 
