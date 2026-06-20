@@ -1,4 +1,5 @@
 # Uncertainty Engine
+### Metacognitive Uncertainty Estimation and Hallucination Control for AI Agents
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
@@ -21,7 +22,10 @@ This module is extracted from a larger cognitive architecture and can run indepe
 - Trustworthy AI systems
 - Safety-aware execution
 
-  
+## Abstract
+
+Uncertainty Engine is a lightweight uncertainty-estimation framework for AI agents and LLM-based systems. It provides confidence calibration, evidence-aware reasoning control, hallucination mitigation, adaptive thresholds, and risk-sensitive decision gating without requiring neural network retraining.
+
 ## Overview
 
 The engine helps an AI agent decide whether it should:
