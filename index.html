@@ -1,19 +1,230 @@
+```html
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Uncertainty Engine</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Uncertainty Engine</title>
+
+<meta name="description"
+content="Metacognitive uncertainty estimation and hallucination control framework for AI agents and LLM systems.">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: Inter, Arial, sans-serif;
+    background:#0f172a;
+    color:white;
+    line-height:1.6;
+}
+
+.container{
+    max-width:1200px;
+    margin:auto;
+    padding:0 24px;
+}
+
+.hero{
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    background:
+    radial-gradient(circle at top,
+    #1e293b 0%,
+    #0f172a 60%);
+}
+
+.hero h1{
+    font-size:4rem;
+    margin-bottom:16px;
+}
+
+.hero p{
+    color:#cbd5e1;
+    font-size:1.2rem;
+    max-width:800px;
+    margin:auto;
+}
+
+.badges{
+    margin-top:24px;
+    display:flex;
+    gap:12px;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.badge{
+    background:#1e293b;
+    border:1px solid #334155;
+    padding:8px 14px;
+    border-radius:999px;
+    font-size:0.9rem;
+}
+
+.buttons{
+    margin-top:40px;
+}
+
+.btn{
+    display:inline-block;
+    text-decoration:none;
+    padding:14px 24px;
+    border-radius:12px;
+    margin:8px;
+    font-weight:600;
+}
+
+.primary{
+    background:#3b82f6;
+    color:white;
+}
+
+.secondary{
+    background:#1e293b;
+    color:white;
+    border:1px solid #334155;
+}
+
+.features{
+    padding:100px 0;
+}
+
+.features h2{
+    text-align:center;
+    margin-bottom:50px;
+    font-size:2.2rem;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:24px;
+}
+
+.card{
+    background:#1e293b;
+    border:1px solid #334155;
+    border-radius:18px;
+    padding:24px;
+}
+
+.card h3{
+    margin-bottom:12px;
+}
+
+.card p{
+    color:#cbd5e1;
+}
+
+footer{
+    text-align:center;
+    padding:40px;
+    color:#94a3b8;
+}
+</style>
 </head>
+
 <body>
-    <h1>Uncertainty Engine</h1>
-    <p>Metacognitive Uncertainty Estimation and Hallucination Control for AI Agents</p>
 
-    <p>
-        A lightweight framework for confidence calibration,
-        uncertainty estimation, and risk-aware decision gating.
-    </p>
+<section class="hero">
+<div class="container">
 
-    <a href="https://github.com/Hkd225/Uncertainty-Engine">
-        View on GitHub
-    </a>
+<h1>Uncertainty Engine</h1>
+
+<p>
+Metacognitive Uncertainty Estimation and Hallucination Control
+for AI Agents.
+</p>
+
+<div class="badges">
+<div class="badge">AI Agents</div>
+<div class="badge">Hallucination Detection</div>
+<div class="badge">Confidence Calibration</div>
+<div class="badge">Risk-Aware Reasoning</div>
+</div>
+
+<div class="buttons">
+<a href="https://github.com/Hkd225/Uncertainty-Engine"
+class="btn primary">
+View on GitHub
+</a>
+
+<a href="#features"
+class="btn secondary">
+Explore Features
+</a>
+</div>
+
+</div>
+</section>
+
+<section id="features" class="features">
+<div class="container">
+
+<h2>Key Capabilities</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>Confidence Estimation</h3>
+<p>
+Estimate confidence levels for candidate responses and actions.
+</p>
+</div>
+
+<div class="card">
+<h3>Hallucination Control</h3>
+<p>
+Reduce overconfident responses through uncertainty-aware gating.
+</p>
+</div>
+
+<div class="card">
+<h3>Calibration Metrics</h3>
+<p>
+Includes ECE, Brier Score, entropy metrics, and Bayesian updates.
+</p>
+</div>
+
+<div class="card">
+<h3>Risk Awareness</h3>
+<p>
+Adjust behavior based on domain-specific risk profiles.
+</p>
+</div>
+
+<div class="card">
+<h3>Decision Gating</h3>
+<p>
+Determine whether to answer, retrieve evidence, or request review.
+</p>
+</div>
+
+<div class="card">
+<h3>Standalone Design</h3>
+<p>
+Runs without LLM APIs, vector databases, or ML frameworks.
+</p>
+</div>
+
+</div>
+
+</div>
+</section>
+
+<footer>
+© 2026 Uncertainty Engine • Research Prototype
+</footer>
+
 </body>
 </html>
+```
