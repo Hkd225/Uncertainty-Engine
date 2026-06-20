@@ -10,7 +10,16 @@ It estimates confidence, uncertainty, calibration quality, evidence strength, do
 This module is extracted from a larger cognitive architecture and can run independently as a pure Python file.
 
 ---
+## Use Cases
 
+- LLM hallucination mitigation
+- RAG confidence estimation
+- AI agent self-evaluation
+- Autonomous agent decision control
+- Trustworthy AI systems
+- Safety-aware execution
+
+  
 ## Overview
 
 The engine helps an AI agent decide whether it should:
