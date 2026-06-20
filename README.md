@@ -3,6 +3,8 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
 ![Status](https://img.shields.io/badge/Status-Research%20Prototype-orange)
+![AI Agents](https://img.shields.io/badge/AI-Agentic-blue)
+![Hallucination Detection](https://img.shields.io/badge/LLM-Hallucination%20Control-green)
 
 **Uncertainty Engine** is a standalone metacognitive uncertainty-control module for AI agents.  
 It estimates confidence, uncertainty, calibration quality, evidence strength, domain risk, and recommended control actions.
