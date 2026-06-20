@@ -1,4 +1,5 @@
 # Uncertainty Engine
+
 ### Metacognitive Uncertainty Estimation and Hallucination Control for AI Agents
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
@@ -7,38 +8,60 @@
 ![AI Agents](https://img.shields.io/badge/AI-Agentic-blue)
 ![Hallucination Detection](https://img.shields.io/badge/LLM-Hallucination%20Control-green)
 
-**Uncertainty Engine** is a standalone metacognitive uncertainty-control module for AI agents.  
+**Uncertainty Engine** is a standalone metacognitive uncertainty-control module for AI agents.
+
 It estimates confidence, uncertainty, calibration quality, evidence strength, domain risk, and recommended control actions.
 
 This module is extracted from a larger cognitive architecture and can run independently as a pure Python file.
 
 ---
-## Use Cases
-
-- LLM hallucination mitigation
-- RAG confidence estimation
-- AI agent self-evaluation
-- Autonomous agent decision control
-- Trustworthy AI systems
-- Safety-aware execution
 
 ## Abstract
 
 Uncertainty Engine is a lightweight uncertainty-estimation framework for AI agents and LLM-based systems. It provides confidence calibration, evidence-aware reasoning control, hallucination mitigation, adaptive thresholds, and risk-sensitive decision gating without requiring neural network retraining.
 
+---
+
+## Why This Exists
+
+Modern AI systems often generate answers that appear confident even when supporting evidence is weak or contradictory.
+
+Uncertainty Engine introduces a dedicated uncertainty layer that helps an agent estimate when it should trust its own reasoning, retrieve additional evidence, defer execution, or request review.
+
+> An agent should not only know what to answer.
+> It should also know when its answer is not reliable enough.
+
+---
+
+## Use Cases
+
+* LLM hallucination mitigation
+* RAG confidence estimation
+* AI agent self-evaluation
+* Autonomous agent decision control
+* Trustworthy AI systems
+* Safety-aware execution
+* Confidence calibration
+* Risk-aware reasoning
+* Agent workflow gating
+
+---
+
 ## Overview
 
 The engine helps an AI agent decide whether it should:
 
-- answer directly,
-- gather more evidence,
-- retrieve more context,
-- slow down reasoning,
-- resolve conflicting evidence,
-- or require review.
+* answer directly,
+* gather more evidence,
+* retrieve more context,
+* slow down reasoning,
+* resolve conflicting evidence,
+* or require review.
 
-It is not an LLM, not a vector database, and not a neural network.  
+It is not an LLM, not a vector database, and not a neural network.
+
 It is a mathematical control layer for uncertainty estimation and decision gating.
+
 
 ---
 
